@@ -1,0 +1,19 @@
+{
+  "name": "smeditor",
+  "version": "1.0.0",
+  "description": "Stalin Maza Editor Markdown Simple",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "electron",
+    "markdown"
+  ],
+  "author": "Stalin Maza",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^7.1.2",
+    "marked": "^0.7.0"
+  }
+}

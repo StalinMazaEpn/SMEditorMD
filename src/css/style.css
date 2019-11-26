@@ -1,0 +1,62 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+
+body, input, textarea{
+    font: menu; /*fuente sistema operativo*/
+}
+
+textarea, input, div, button{
+    margin: 0;
+    outline: none;
+}
+
+.app_content{
+    height: 100vh;
+    display: flex;
+}
+
+.raw-markdown, .renderer-html{
+    min-height: 100%;
+    max-width: 50%;
+    flex-grow: 1;
+    overflow: scroll;
+    font-size: 18px;
+}
+.raw-markdown{
+    border: 5px solid rgb(238, 252, 250);
+    background-color: rgb(238, 252, 250);
+    font-family: monospace;
+}
+.renderer-html{
+    word-break: break-word;
+}
+
+/*MarkdownStyles*/
+pre{
+    background: #252525;
+    padding: 16px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+pre > code{
+    color: rgba(139, 233, 253, 1);
+}
+
+img{
+    height: 150px;
+    width: 150px;
+}
