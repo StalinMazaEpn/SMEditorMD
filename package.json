@@ -13,7 +13,7 @@
   "author": "Stalin Maza",
   "license": "ISC",
   "dependencies": {
-    "electron": "^7.1.2",
+    "electron": "^7.2.4",
     "marked": "^0.7.0"
   }
 }
